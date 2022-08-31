@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2a2929;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0;
+}
+
+.sub-container {
+    margin-top: 20px;
+}
+
+.header {
+    padding: 5px;
+    margin: auto;
+    width: 195vh;
+    height: 60px;
+    background-color: #3a3838;
+    border-radius: 6px 6px;
+    opacity: 20px;
+
+}
+
+.nav_input {
+    position: absolute;
+    top: 15px;
+    right: 260px;
+    height: 30px;
+    width: 200px;
+}
+
+.login {
+    position: absolute;
+    top: 15px;
+    right: 80px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    background-color: #2a2929;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.login:hover {
+    position: absolute;
+    top: 13px;
+    right: 78px;
+    height: 32px;
+    width: 83px;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #00008b;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.login a {
+    margin-left: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login:hover {
+    margin-left: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px 100px 50px 100px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    width: 100%;
+    height: 250px;
+    background-color: #3a3838;
+}
+
+.sub-footer {
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+}
+
+.social a {
+    margin-right: 18px;
+}
